@@ -26,6 +26,22 @@ table{
 p{
     margin:2px;
 }
+button {
+    border:2px solid var(--lightcolor);
+    border-radius: 4px;
+    background-color:var(--darkcolor);
+    color: white; 
+    font-size: large; 
+    margin: 10px;
+}
+button:hover{
+    border:2px solid var(--lightcolor);
+    border-radius: 4px;
+    background-color:var(--lightcolor);
+    color: var(--darkercolor); 
+    font-size: large; 
+    margin: 10px;
+}
 .greenclass{
     color: greenyellow;
 }
